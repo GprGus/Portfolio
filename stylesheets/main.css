@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Tilt+Neon&display=swap');
 * {
     font-family: 'Bai Jamjuree', sans-serif;
 
@@ -10,12 +9,10 @@
 
 }
 
-
 /* hides the scrollbar */
 *::-webkit-scrollbar {
     display: none;
 }
-
 
 /* navbar menu */
 .menuButton {
@@ -33,39 +30,8 @@
     transition: all 0.3s ease 0s;
 }
 
-
-/* Body */
+/* icon color on offcanvas footer */
 i {
     color: black;
 }
-
-.homeInfo {
-    position: absolute;
-    top: 140px;
-    left: 140px;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    color: #fff;
-    font-family: 'Tilt Neon', cursive;
-}
-
-
-/* card and about section */
-.cardPhoto {
-    height: 200px;
-    width: 200px;
-    border-radius: 200px;
-    margin: auto;
-    padding: 20px;
-}
-
-.section {
-    display: flex;
-    margin: 40px;
-}
-
-.bioT {
-    margin-left: 40px;
-}
-
 

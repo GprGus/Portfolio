@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Tilt+Neon&display=swap');
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+
+    /* impossible to select any text */
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    /**/
+
+}
+
+
+/* hides the scrollbar */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* navbar menu */
+.menuButton {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 10px 12px;
+    background-color:  rgba(248, 249, 250, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.menuButton:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Body */
+i {
+    color: black;
+}
+
+.homeInfo {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+/* card and about section */
+.cardPhoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    margin: 40px;
+}
+
+.bioT {
+    margin-left: 40px;
+}
+
+

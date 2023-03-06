@@ -13,20 +13,74 @@
 
 
 /* card and about section */
-.cardPhoto {
-    height: 200px;
-    width: 200px;
-    border-radius: 200px;
-    margin: auto;
-    padding: 20px;
-}
-
 .section {
     display: flex;
-    margin: 40px;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 25px;
+    width: 700px;
 }
 
-.bioT {
-    margin-left: 40px;
+.bioPhoto {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.text {
+    padding: 20px;
+    color: black;
+    margin-right: 20px;
+    font-size: medium;
+}  
+
+.textBio {
+    margin-bottom: 30px;
+}
+
+
+/* skills section */
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+
+.skillsTitle {
+    text-align: center;
+}
+
+.skillCard {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px;
+}
+
+.skillO {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 85px;
+}
+
+.svg {
+    width: 40px;
+    margin-bottom: 5px;
+}

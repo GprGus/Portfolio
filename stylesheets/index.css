@@ -71,6 +71,9 @@
     padding: 20px;
     margin: 30px;
 }
+.skillCard p {
+    text-align: center;
+}
 
 .skillO {
     display: flex;
@@ -83,4 +86,12 @@
 .svg {
     width: 40px;
     margin-bottom: 5px;
+}
+
+/* form area */
+
+.formArea {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }

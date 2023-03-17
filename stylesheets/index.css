@@ -23,6 +23,52 @@
     width: 700px;
 }
 
+
+.menu-link {
+    position: relative;
+    display: block;
+    width: 16rem;
+    padding: 1rem 0;
+    margin: 1rem;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #407075;
+  }
+  
+  .menu-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #407075;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    z-index: 2;
+  }
+  
+  .menu-link:hover:before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+  
+  .menu-link:hover {
+    color: #fff;
+  }
+  
+  .menu {
+    position: relative;
+    z-index: 3;
+    color: #407075;
+  }
+  
+  .menu-link:hover .menu {
+    color: #fff;
+  }
+
+
 .bioPhoto {
     width: 50%;
     border-radius: 10px;

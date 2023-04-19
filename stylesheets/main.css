@@ -38,3 +38,10 @@ i {
 .m20 {
     margin: 20px;
 }
+
+.menuLoc {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-size: 14px;
+}

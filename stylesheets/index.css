@@ -89,7 +89,7 @@
 
 /* skills section */
 .grid {
-/*     margin-top: 65px; */
+    margin-top: 65px;
     display: grid;
     grid-template-columns: 50% 50%;
 

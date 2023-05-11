@@ -31,7 +31,7 @@
                                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#about" data-bs-dismiss="offcanvas" onclick="scrollToBottom()">About</a>
                                 </li>
                                 <p class="nav-item" style="color: #595959;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" href="#">
                                     World Gallery
@@ -112,6 +112,15 @@
             </div>
         </div>
         <br>
+        <script>
+            document.querySelector('a[href="#about"]').addEventListener('click', function() {
+            document.querySelector('.offcanvas').classList.remove('show');
+            document.body.classList.remove('offcanvas-active');
+            setTimeout(function scrollToBottom() {
+                window.scrollTo(0, document.body.scrollHeight);
+            }, 500);
+            });
+        </script>
         <script src="JS/about.js"></script>
         <script src="JS/temp.js"></script>
     </body>
